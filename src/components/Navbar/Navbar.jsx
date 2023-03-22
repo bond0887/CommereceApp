@@ -61,7 +61,7 @@ const Navbar = ({ totalItems }) => {
             <Toolbar>
                 <img src={logo} alt="Commerce.js" height="25px" sx={sxStyleImage} />
                 <Typography component={Link} to="/" variant="h6" color="inherit" sx={sxStyletitle}>
-                    Commerce.js
+                    Suraj Jindal | E-commerce
                 </Typography>
                 <div />
                 {(location.pathname === '/' || location.pathname === '/productdetails') && (
